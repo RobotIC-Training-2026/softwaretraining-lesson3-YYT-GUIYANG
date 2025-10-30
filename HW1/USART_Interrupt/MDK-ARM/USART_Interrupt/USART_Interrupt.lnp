@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"usart_interrupt\startup_stm32f103xb.o"
+"usart_interrupt\main.o"
+"usart_interrupt\gpio.o"
+"usart_interrupt\usart.o"
+"usart_interrupt\stm32f1xx_it.o"
+"usart_interrupt\stm32f1xx_hal_msp.o"
+"usart_interrupt\stm32f1xx_hal_gpio_ex.o"
+"usart_interrupt\stm32f1xx_hal_tim.o"
+"usart_interrupt\stm32f1xx_hal_tim_ex.o"
+"usart_interrupt\stm32f1xx_hal_uart.o"
+"usart_interrupt\stm32f1xx_hal.o"
+"usart_interrupt\stm32f1xx_hal_rcc.o"
+"usart_interrupt\stm32f1xx_hal_rcc_ex.o"
+"usart_interrupt\stm32f1xx_hal_gpio.o"
+"usart_interrupt\stm32f1xx_hal_dma.o"
+"usart_interrupt\stm32f1xx_hal_cortex.o"
+"usart_interrupt\stm32f1xx_hal_pwr.o"
+"usart_interrupt\stm32f1xx_hal_flash.o"
+"usart_interrupt\stm32f1xx_hal_flash_ex.o"
+"usart_interrupt\stm32f1xx_hal_exti.o"
+"usart_interrupt\system_stm32f1xx.o"
+--strict --scatter "USART_Interrupt\USART_Interrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USART_Interrupt.map" -o USART_Interrupt\USART_Interrupt.axf
