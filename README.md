@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BKGijDmD)
 # SoftwareTraining-lesson3
 欢迎回来，这是萝卜IC软件的第三次软件培训作业。经过上一次的尝试，相信你已经对提交作业的流程比较熟悉了，这里就不再赘述。以下是作业内容和注意事项。
 
